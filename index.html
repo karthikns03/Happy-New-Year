@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>New Year</title>
+  </head>
+  <body>
+    <h1 class="first-heading">Happy New Year!!!</h1>
+    <h1 class="second-heading">Have a great Year!!!</h1>
+    <div class="input-section">
+      <p>
+        <label for="userName">Type your name for your 2024 prediction:</label>
+        <br />
+        <input type="text" id="userName" name="userName" />
+        <button onclick="submitForm()" class="blink-button">
+          Your Prediction is Here!!
+        </button>
+      </p>
+      <div id="result-section" style="display: none;">
+        <audio id="audio" autoplay>
+          <source src="your-audio-file.mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+        <img id="result-image" src="" alt="Meme" style="display: block; margin: 0 auto;" width="500" height="500" />
+        <h2 id="greeting-text" style="text-align: center;"></h2>
+    </div>
+  </body>
+</html>
