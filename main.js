@@ -12,7 +12,7 @@ function submitForm() {
   greetingText.textContent =
     "Fuck You, " +
     userName +
-    " ===>Saavu da punda<=== Unake NEW YEAR oru kedu" +
+    " ===>Saavu da punda<=== Unaku NEW YEAR oru kedu" +
     "!!!";
 
   // Show result section
